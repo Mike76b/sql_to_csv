@@ -138,7 +138,7 @@ func main() {
 
 }
 
-// Slicer creates a channel to guide the extraction process.
+// Slicer creates a slice to guide the extraction process.
 // Receive the length of the table and the number of rows to be contained in each chunk.
 func Slicer(tableLen, chunkSize int) []int {
 
